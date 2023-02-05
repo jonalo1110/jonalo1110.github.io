@@ -22,7 +22,7 @@
 
 /*Intro Jumbotron*/
 .welcome{
-    height:1900px;
+    height:745px;
     width: 100%;
     background-image: url(images/main.jpg);
     background-repeat: no-repeat;
@@ -58,26 +58,22 @@
     height:10px;
 }
 .about{
-    height: 400px;
     width:100%;
-    margin-top: -1050px;
+    height:440px;
+    overflow-y: auto;
 
-}
+}          
 .about h1{
+    padding-top: 50px;;
     color:black;
     font-family: 'Unbounded';
-    text-indent: 50px;
+    text-indent: 0px;
 }
 .about h5{
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
-.car{
-    width:600px;
-    border-radius: 40px;
-    padding-left: 30px;
-    align-content: center;
-}
+
 .car img{
     height:380px;
     object-fit: cover;
@@ -86,3 +82,24 @@
 .row{
     width: 100%;
 }
+.carousel{
+    padding-top: 30px;;
+    width:450px;
+}
+/*Services*/
+.head{
+    padding-top: 30px;;
+    font-family: 'Unbounded';
+}
+.serv{
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.serv-items{
+    background-color: black;
+    height: 280px;
+    width: 280px;
+    border-radius: 5%;
+    margin-top: 45px;
+}
+
