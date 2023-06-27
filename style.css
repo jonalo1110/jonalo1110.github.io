@@ -22,7 +22,7 @@
 
 /*Intro Jumbotron*/
 .welcome{
-    height:745px;
+    height:741px;
     width: 100%;
     background-image: url(images/main.jpg);
     background-repeat: no-repeat;
@@ -54,20 +54,25 @@
     border-radius: 20px;
 }
 /*About Us*/
-.about{
-    height:10px;
-}
+
 .about{
     width:100%;
     height:440px;
     overflow-y: auto;
-
+    background-image: url(images/pavabout.jpg);
 }          
+.aboutbox{
+    background-color: rgb(232, 233, 218);
+    width:80%;
+    border-radius: 10px;
+    border-width: 10px;
+    border: rgb(53, 50, 50) double;
+    margin-top: 40px;
+    padding:30px;
+}
 .about h1{
-    padding-top: 50px;;
     color:black;
     font-family: 'Unbounded';
-    text-indent: 0px;
 }
 .about h5{
     margin-left: 0px;
@@ -90,16 +95,69 @@
 .head{
     padding-top: 30px;;
     font-family: 'Unbounded';
+    text-decoration-line: underline;
 }
 .serv{
     height: 350px;
-    background-repeat: no-repeat;
 }
 .serv-items{
-    background-color: black;
     height: 280px;
     width: 280px;
     border-radius: 5%;
     margin-top: 45px;
 }
-
+.serv-items:hover{
+    height: 290px;
+    width: 290px;
+    transition: 0.4s;
+    opacity: 0.9;
+}
+.services h2{
+    color: white;
+}
+div .hardscap{
+    background-image: url(images/hardscape.jpg);
+}
+div .paving{
+    background-image: url(images/paving.jpg);
+}
+div .mason{
+    background-image: url(images/masonry.jpg);
+}
+div .conc{
+    background-image: url(images/concrete.jpg);
+}
+div .stampconc{
+    background-image:url(images/stampedcon.jpeg);
+}
+div .stonven{
+    background-image: url(images/stoneven.jpg);
+}
+div .design{
+    background-color: black;
+}
+div .outdoor{
+    background-image: url(images/outdesign.jpg);
+}
+div .serv-items h2{
+    padding-top: 110px;
+    font-family: 'Gloock', serif;
+    font-size: 33px;;
+    font-weight: bold;
+}
+/*Gallery*/
+.galtitle{
+    padding: 20px;
+    font-family: 'Unbounded';
+}
+.galitem{
+    height: 300px;
+    width:300px;
+    object-fit: contain;
+    box-shadow: 2px;
+}
+.galitem:hover{
+    height:310px;
+    width: 310px;
+    transition: 0.5s;
+}
